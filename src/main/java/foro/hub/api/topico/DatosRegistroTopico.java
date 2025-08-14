@@ -1,6 +1,6 @@
 package foro.hub.api.topico;
 
-public record DatosRegistroTopicos(
+public record DatosRegistroTopico(
         Long idUsuario,
         String mensaje,
         String nombreCurso,
