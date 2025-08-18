@@ -1,7 +1,7 @@
 package foro.hub.api.controller;
 
-import foro.hub.api.topico.*;
-import foro.hub.api.usuario.UsuarioRepository;
+import foro.hub.api.domain.topico.*;
+import foro.hub.api.domain.usuario.UsuarioRepository;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

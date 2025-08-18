@@ -1,8 +1,8 @@
-package foro.hub.api.topico;
+package foro.hub.api.domain.topico;
 
 import java.time.LocalDateTime;
 
-public record DatosListaTopicos(
+public record DatosDetalleTopico(
         Long id,
         String titulo,
         String mensaje,
